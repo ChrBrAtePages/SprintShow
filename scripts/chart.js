@@ -1,47 +1,46 @@
+
+
 define([
 		"./charts/doughnut",
-		"./charts/line",
-		"./sprintdata"
-		],function (doughnut, line, sprintdata) {
+		"./charts/line"
+		],function (doughnut, line) {
 	return {
-	    renderCharts: function () {
-	    	//this.setGlobalChartJSConfig();
-	    	this.renderTaskDistribution();
-		this.renderTypeDistribution();
-	    	this.renderSprintHistoryChart();
-	    },
-		renderTaskDistribution : function (){
+		renderCharts :	function (taskDistributionData, typeDistributionData, sprintHistoryData) {
+			//this.setGlobalChartJSConfig();
+			this.renderTaskDistribution(taskDistributionData);
+			this.renderTypeDistribution(typeDistributionData);
+			this.renderSprintHistoryChart(sprintHistoryData);
+		},
+		renderTaskDistribution : function (taskDistributionData){
 			doughnut.renderChart({
 				canvasName: "taskDistribution",
-				data: sprintdata.getCurrentSprint(),
+				data: taskDistributionData,
 				colorType: {
 					base: 'blue',
 					highcolor: 'orange'
 				}
 			});
 		},
-		renderTypeDistribution : function (){
+		renderTypeDistribution : function (typeDistributionData){
 			doughnut.renderChart({
 				canvasName: "typeDistribution",
-				data: sprintdata.getCurrentSprintTypes(),
+				data: typeDistributionData,
 				colorType: {
 					base: 'green',
 					highcolor: 'red'
 				}
 			});
 		},
-		renderSprintHistoryChart : function (){
+		renderSprintHistoryChart : function (sprintHistoryData){
 			line.renderChart({
 				canvasName: "history",
-				data: sprintdata.getSprintHistory()
+				data: sprintHistoryData
 			});
 		},
 		setGlobalChartJSConfig : function (){
 			Chart.defaults.global = {
 				//animation: false,
 			};
-
 		}
-
 	};
 });
