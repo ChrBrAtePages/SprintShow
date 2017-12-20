@@ -9,19 +9,25 @@ define(function () {
         "integrated": "7.19.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APayPalPlus' target='_blank'>Coverage</a>",
+            "<a href='https://www.sandbox.paypal.com/' target='_blank'>PPP - MBO</a>"
         ]
     },
     {
         "id": "AD-6852",
         "name": "Enforce scheduleUpdates while csv-categories-import",
         "type": "Research",
-        "summary": "<ul><li>hell ojhkjhkjhkhkjhsadf</li></ul>",
+        "summary": "<ul><li>PBO/TBO delete</li><li>epages.config (trigger & remote search)</li><li>CRUD - Products</li><li>CRUD - Categories</li><li>CRUD - Product-Category-Mapping</li><li>open CRUD - ProductType</li></ul>",
         "priority": "Critical",
         "integrated": "7.18.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3ACatalog' target='_blank'>Catalog</a>",
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AContent' target='_blank'>Content</a>",
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APresentation' target='_blank'>Presentation</a>",
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AProduct' target='_blank'>Product</a>",
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3ARemoteSearch' target='_blank'>RemoteSearch</a>",
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3ATrigger' target='_blank'>Trigger</a>"
         ]
     },
     {
@@ -33,7 +39,7 @@ define(function () {
         "integrated": "7.18.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APayPalPlus' target='_blank'>Coverage</a>"
         ]
     },
     {
@@ -45,7 +51,7 @@ define(function () {
         "integrated": "7.18.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3Coupon' target='_blank'>Coverage</a>"
         ]
     },
     {
@@ -69,7 +75,7 @@ define(function () {
         "integrated": "7.19.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APayPalPlus' target='_blank'>Coverage</a>"
         ]
     },
     {
@@ -81,7 +87,7 @@ define(function () {
         "integrated": "7.19.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AIpayment' target='_blank'>Coverage</a>"
         ]
     },
     {
@@ -93,7 +99,7 @@ define(function () {
         "integrated": "7.18.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3ADHLIntraship' target='_blank'>Coverage</a>"
         ]
     }
 ]
