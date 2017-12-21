@@ -91,12 +91,25 @@ define(function () {
         "links": [
             "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AIpayment' target='_blank'>Coverage</a>",
             "<a href='file:///C:/_work/VmShare/SprintShow/img/ipayment_transaction_not_successful_now.png' target='_blank'>Transaction not successful ePagesNow</a>",
-            "<a href='file:///C:/_work/VmShare/SprintShow/img/Ipayment_transaction_not_successful_ep6.png' target='_blank'>Transaction successful ePages6</a>"
+            "<a href='file:///C:/_work/VmShare/SprintShow/img/Ipayment_transaction_not_successful_ep6.png' target='_blank'>Transaction not successful ePages6</a>"
+        ]
+    },
+    {
+        "id": "AD-8138",
+        "name": "Payments: Remove deprecated 3rd Party features from active shoptypes",
+        "type": "Task",
+        "summary": "",
+        "priority": "Critical",
+        "integrated": "7.19.0",
+        "platform": "ePages6",
+        "links": [
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AExternalPayment' target='_blank'>Coverage</a>",
+            "<a href='https://github.com/manel-ePages/Cartridges/tree/54a62ee6722985b52cb770bbf7581b74518d3e21/DE_EPAGES/ExternalPayment/Scripts' target='_blank'>Github</a>"
         ]
     },
     {
         "id": "AD-8090",
-        "name": "DHLIntraship: Format Name & Postnumber for DHL Intraship",
+        "name": "DHLIntraship: Format Name & Postnumber for DHL Intraship Packstation",
         "type": "Improvement",
         "summary": "",
         "priority": "Critical",
@@ -104,6 +117,7 @@ define(function () {
         "platform": "ePages6",
         "links": [
             "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3ADHLIntraship' target='_blank'>Coverage</a>",
+            "<a href='file:///C:/_work/VmShare/SprintShow/img/DHL_7_15_.png' target='_blank'>Old PostNumber Format</a>",
             "<a href='https://barcelona.epages.systems/epages/DemoShop.admin/sec9399f34a00/?ObjectID=21447&ViewAction=MBO-ViewGeneral' target='_blank'>ePages6 MBO</a>"
         ]
     }
