@@ -39,7 +39,8 @@ define(function () {
         "integrated": "7.18.0",
         "platform": "ePages6",
         "links": [
-            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APayPalPlus' target='_blank'>Coverage</a>"
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APayPalPlus' target='_blank'>Coverage</a>",
+            "<a href='https://barcelona.epages.systems/epages/DemoShop.sf' target='_blank'>Storefront</a>"
         ]
     },
     {
@@ -75,7 +76,8 @@ define(function () {
         "integrated": "7.19.0",
         "platform": "ePages6",
         "links": [
-            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APayPalPlus' target='_blank'>Coverage</a>"
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3APayPalPlus' target='_blank'>Coverage</a>",
+            "<a href='file:///C:/_work/VmShare/SprintShow/img/Skrill_NoCurrencySymbolSent.png' target='_blank'>No Currency Symbol</a>"
         ]
     },
     {
@@ -87,7 +89,9 @@ define(function () {
         "integrated": "7.19.0",
         "platform": "ePages6",
         "links": [
-            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AIpayment' target='_blank'>Coverage</a>"
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AIpayment' target='_blank'>Coverage</a>",
+            "<a href='file:///C:/_work/VmShare/SprintShow/img/ipayment_transaction_not_successful_now.png' target='_blank'>Transaction not successful ePagesNow</a>",
+            "<a href='file:///C:/_work/VmShare/SprintShow/img/Ipayment_transaction_not_successful_ep6.png' target='_blank'>Transaction successful ePages6</a>"
         ]
     },
     {
@@ -99,7 +103,8 @@ define(function () {
         "integrated": "7.18.0",
         "platform": "ePages6",
         "links": [
-            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3ADHLIntraship' target='_blank'>Coverage</a>"
+            "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3ADHLIntraship' target='_blank'>Coverage</a>",
+            "<a href='https://barcelona.epages.systems/epages/DemoShop.admin/sec9399f34a00/?ObjectID=21447&ViewAction=MBO-ViewGeneral' target='_blank'>ePages6 MBO</a>"
         ]
     }
 ]
